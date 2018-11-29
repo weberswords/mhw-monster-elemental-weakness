@@ -11,14 +11,29 @@ div {
 	text-align: center;
 }
 
+nav {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
 ul {
 	list-style-type: none;
-	max-width: 1vw;
 }
 
 button {
 	width: 200px;
 	color: #5E92FF;
+    z-index: 4;
+}
+
+h1, h2 {
+    font-weight: bold;
+    font-size: 10em; 
+}
+
+p, h1, h2, li
+{
+  font-size: 2.4vmin;
 }
 
 .deep-blue {

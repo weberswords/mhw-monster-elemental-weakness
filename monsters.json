@@ -1,5 +1,18 @@
-{
-	"name": "someMonster",
-	"someFeature": "fangs",
-	"hitPoints": "234"
-}
+[
+	{
+		name: "someMonster",
+		someFeature: "fangs",
+		hitPoints: "234",
+		toString: function() {
+			return "This is a " + this.name;
+		}
+	}, {
+
+		name: "someOtherMonster",
+		someFeature: "horns",
+		hitPoints: "111",
+		toString: function() {
+			return "This is a " + this.name;
+		}
+	}
+]
